@@ -1,4 +1,4 @@
-package com.dio.base;
+package com.dio.order;
 
 public class Order {
 
@@ -14,7 +14,7 @@ public class Order {
     public String toString() {
         
         return "Order={"+
-               "code='"+ code +"'" +
+               "code:'"+ code +"'" +
                "}";
     }
 

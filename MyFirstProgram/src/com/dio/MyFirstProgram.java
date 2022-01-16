@@ -17,7 +17,7 @@ public class MyFirstProgram {
      * @param args e uma forma do mundo externo comunicar-se com a aplicacao atraves de argumentos
      */
     public static void main(String[] args) {
-        
+        //apenas inserindo um benchmark
         final double endTime, startTime = System.nanoTime();
 
         Order order = new Order("123",102);
@@ -25,7 +25,8 @@ public class MyFirstProgram {
         System.out.println(order  );
 
         endTime = System.nanoTime();
-        
+
+        //retorno do benchmark
         System.out.println("Code took "+((endTime-startTime)/1000000000)+" seconds");
     }
     

@@ -1,6 +1,12 @@
-## Getting Started
+## Primeiro Exercício utilizado na áula
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+O execercício consistia em:
+
+-Criar uma calculadora simples que aceitasse dois valores e executasse uma das operações selecionadas.
+
+-Cumprimentar o usuário com uma mensagem condizente com o horário de execução.
+
+-Realizar uma operação de empréstimo utilizando taxas de acordo com o número de parcelas.
 
 ## Folder Structure
 

@@ -1,4 +1,4 @@
-## Primeiro Exercício utilizado na áula
+## Primeiro Exercício utilizado na aula
 
 O execercício consistia em:
 

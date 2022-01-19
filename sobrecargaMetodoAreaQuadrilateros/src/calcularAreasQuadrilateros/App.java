@@ -6,8 +6,8 @@ calcular a área de três quadriláteros notáveis, quadrado, retângulo e trape
 
 public class App {
     public static void main(String[] args) throws Exception {
-        calculaAreaQuadrilateros.calculaAreaQuadrilaterosGenerico(1.5);
-        calculaAreaQuadrilateros.calculaAreaQuadrilaterosGenerico(1.5,2);
-        calculaAreaQuadrilateros.calculaAreaQuadrilaterosGenerico(2,2,2);
+        System.out.println("A área do quadrado é " + calculaAreaQuadrilateros.calculaAreaQuadrilaterosGenerico(1.5));
+        System.out.println("A área do retangulo é " + calculaAreaQuadrilateros.calculaAreaQuadrilaterosGenerico(1.5,2));
+        System.out.println("A área do trapézio é " + calculaAreaQuadrilateros.calculaAreaQuadrilaterosGenerico(2,2,2));
     }
 }

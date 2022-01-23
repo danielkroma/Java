@@ -15,14 +15,18 @@ public class execucaoExercicio5 {
         "...\r\n"+
         "5 X 10 = 50\r\n");
         System.out.print("informe um numero: \r\n");
-        Scanner entrada= new Scanner(System.in);
-        String saida = (String) entrada.nextLine();
-        System.out.println("Tabuada de "+ saida +" :\r\n");
-        for(int i= 1 ; i <= 10 ; i++){
-            System.out.println( saida + " X " + i + " = " +(Integer.valueOf(saida)* i));
-            
+        try (Scanner entrada = new Scanner(System.in)) {
+            String saida = (String) entrada.nextLine();
+            System.out.println("Tabuada de "+ saida +" :\r\n");
+            for(int i= 1 ; i <= 10 ; i++){
+                System.out.println( saida + " X " + i + " = " +(Integer.valueOf(saida)* i));
+                
  
 
+            }
+        } catch (NumberFormatException e) {
+
+            e.printStackTrace();
         }
 
     

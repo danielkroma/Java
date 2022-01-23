@@ -43,7 +43,6 @@ public class execucaoExercicio1 {
                 System.out.println("Nome: " + listaNomes.get(i) + " Idade :" + listaIdades.get(i));
             }
         } catch (NumberFormatException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         }
     }

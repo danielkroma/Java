@@ -22,7 +22,6 @@ public class execucaoExercicio2 {
             
             }while(numeros<0 || numeros > 10);
         } catch (NumberFormatException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         }
         System.out.print(listaNumeros);     

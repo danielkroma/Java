@@ -26,7 +26,6 @@ public class execucaoExercicio4 {
 
             } while (!numeros.isEmpty());
         } catch (NumberFormatException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         }
         System.out.print("Você inseriu " + listaNumerosPar.size() + " numeros par e " + listaNumerosImpar.size()
